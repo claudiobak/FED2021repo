@@ -118,12 +118,23 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| student 1      | Claudio            | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
+Vidar:
+- Hoe animeer je het hamburger menu (voorbeeld zal ik laten zien)
+
+- Moet je ook custom properties met bijvoorbeeld white-space of is dat meer als aanbevolen?
+
+- Moet alles exact hetzelfde zijn als de huidige website?
+ 
+Claudio:
+- Is het de bedoeling dat je de filters op de pagina ook werkend maakt? (Voorbeeld zal ik laten zien)
+ 
+-Hoe pas je de IntersectionObserver op de correcte manier toe in javascript
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen

@@ -134,7 +134,7 @@ Vidar:
 Claudio:
 - Is het de bedoeling dat je de filters op de pagina ook werkend maakt? (Voorbeeld zal ik laten zien)
  
--Hoe pas je de IntersectionObserver op de correcte manier toe in javascript
+- Hoe pas je de IntersectionObserver op de correcte manier toe in javascript
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen

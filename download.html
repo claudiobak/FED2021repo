@@ -32,11 +32,15 @@
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Discord Homepage FED</title>
+    <title>Discord Secondpage FED</title>
 
 </head>
 
-<body>
+    <!-- ik heb de body een class gegeven om zo een kleur achter de header te kunnen zetten. 
+    Dit heb ik gedaan vanwege het feit dat er een kleine rand van 1px onder de header zat, ondanks het feit
+    dat er al een background color op stond. -->
+
+<body class="body2">
 
     <!-- Navigation section start -->
 
@@ -48,10 +52,10 @@
         <nav>
             <ul>
                 <li>
-                    <a><span class="active-state">Home</span></a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="download.html">Download</a>
+                    <a href="download.html"><span class="active-state">Download</span></a>
                 </li>
                 <li>
                     <a href="#">Nitro</a>
@@ -65,6 +69,7 @@
                 <li>
                     <a href="#">Support</a>
                 </li>
+
             </ul>
 
             <button aria-label="menu sluiten"></button>
@@ -80,121 +85,86 @@
 
     <main>
 
-    <!-- Ik heb alle grote sections/componenten een unieke class gegeven. -->
+    <!-- Hero section start -->
 
-    <!-- hero section start -->
-
-        <section class="hero-section-page1">
+        <section class="hero-section-page2">
             <div>
                 <article>
 
-                    <h1>IMAGINE A PLACE...</h1>
-                    <p>...where you can belong to a school club, a gaming group, or a worldwide art community. Where
-                        just
-                        you
-                        and a handful of friends can spend time together. A place that makes it easy to talk every day
-                        and
-                        hang
-                        out more often.
-                    </p>
-                    <a class="bttn-light bttn-large" href="#"><i class="bx bx-download"></i> Download for Windows</a>
-                    <a class="bttn-dark bttn-large" href="#">Open Discord in your browser</a>
-
-                </article>
-
-            </div>
-            <img src="images/headerimgleft.svg" alt="header image on the left">
-            <img src="images/headerimgright.svg" alt="header image on the right">
-        </section>
-
-    <!-- hero section end-->
-
-    <!-- mid section 1 start-->
-
-        <section class="mid-section1-page1">
-            <article class="reveal">
-                <img src="images/discordimg1.svg" alt="Stylized image of a Discord server with multiple channels for studying, games, cooking, and pet photos.">
-                <div>
-                    <h2>Create an invite-only place where you belong</h2>
-                    <p> Discord servers are organized into topic-based channels where you can collaborate, share, and
-                        just talk
-                        about your day without clogging up a group chat.
-                    </p>
-                </div>
-            </article>
-        </section>
-    <!-- mid section 1 end-->
-
-    <!-- mid section 2 start-->
-
-        <section class="mid-section2-page1">
-            <article class="reveal">
-                <img src="images/discordimg2.svg" alt="Stylized image showing friends hanging out in multiple voice channels." class="order-2">
-
-                <div class="order-1">
                     <div>
-                        <h2>Where hanging out is easy</h2>
-                        <p> Grab a seat in a voice channel when you’re free. Friends in your server can see you’re
-                            around
-                            and
-                            instantly pop in to talk without having to call.
+                        <h1>GET DISCORD FOR ANY DEVICE</h1>
+                        <p>An adventure awaits. Hang out with your friends on our desktop app and keep the conversation
+                            going on mobile.
                         </p>
                     </div>
 
-                </div>
-            </article>
-        </section>
-
-    <!-- mid section 2 start-->
-
-    <!-- mid section 3 start-->
-
-        <section class="mid-section3-page1">
-            <article class="reveal">
-                <img src="images/discordimg3.svg" alt="Stylized image showing friends in a server organized into roles for Coach, Student Lead, and Animal Crossing.">
-                <div>
-                    <h2>From few to a fandom</h2>
-                    <p> Get any community running with moderation tools and custom member access. Give members special
-                        powers,
-                        set up private channels, and more.
-                    </p>
-                </div>
-            </article>
-        </section>
-
-    <!-- mid section 3 end-->
-
-    <!-- mid section 4 start-->
-
-        <section class="mid-section4-page1">
-
-            <article class="reveal">
-                <h3>RELIABLE TECH FOR STAYING CLOSE</h3>
-                <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends
-                    stream their games, or gather up and have a drawing session with screen share.
-                </p>
-                <img src="images/section3img.svg" alt="Stylized image showing friends in a server organized into roles for Coach, Student Lead, and Animal Crossing.">
-            </article>
-
-        </section>
-
-    <!-- mid section 4 end-->
-
-    <!-- mid section 5 start-->
-
-        <section class="mid-section5-page1">
-            <div>
-                <img src="images/sparkles.svg" alt="sparkles on the background">
-                <h4>Ready to start your Journey?</h4>
-                <a class="download-bttn bttn-large" href=""><i class="bx bx-download"></i> Download for Windows</a>
+                    <div>
+                        <a class="bttn-page2-cta" href="#"><i class="bx bx-download"></i> Download for Windows</a>
+                        <p>Windows 7 or higher</p>
+                    </div>
+                </article>
+                <img src="images/hero-img1-page2.svg" alt="header image on the left">
             </div>
+
         </section>
 
-    <!-- mid section 5 end-->
+    <!-- Hero section end -->
+
+    <!-- Mid section start -->
+
+        <section class="page2-sec1">
+
+            <section>
+
+                <article>
+                    <div>
+                        <h2>iOS</h2>
+                        <a class="bttn-page2-dwnld" href="#">Download</a>
+                    </div>
+                    <img src="images/page2-sec1-img1.svg" alt="Iphone with the Discord app displaying on it">
+                </article>
+
+                <article>
+                    <div>
+                        <h2>Andriod</h2>
+                        <a class="bttn-page2-dwnld" href="#">Download</a>
+                        <img src="images/page2-sec1-img2.svg" alt="Android phone with the Discord app displaying on it">
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2>Linux</h2>
+                        <a class="bttn-page2-dwnld" href="#">Download</a>
+                        <img src="images/page2-sec1-img3.svg" alt=" PC monitor with Discord displaying on it">
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2>Mac</h2>
+                        <a class="bttn-page2-dwnld" href="#">Download</a>
+                        <img src="images/page2-sec1-img4.svg" alt="Macbook with Discord displaying on it">
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2>Feeling experimental?</h2>
+                        <p>Try our Public Test Build and test new features before they launch.</p>
+                        <a class="bttn-page2-dwnld" href="#">Download Public Test Build</a>
+                    </div>
+                </article>
+
+            </section>
+
+        </section>
+
+    <!-- Mid section end -->
 
     </main>
 
-    <!-- footer start-->
+    <!-- Footer section start -->
 
     <footer>
         <div>
@@ -221,6 +191,8 @@
                         <i class="bx bxl-youtube"></i>
                     </a>
                 </section>
+
+
 
             </section>
 
@@ -272,7 +244,7 @@
 
     </footer>
 
-    <!-- footer end-->
+    <!-- Footer section end -->
 
     <script src="./scripts/script.js"></script>
 </body>

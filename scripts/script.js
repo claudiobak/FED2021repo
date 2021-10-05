@@ -1,40 +1,45 @@
 // JavaScript Document
 
-window.addEventListener('scroll', reveal);
 
-function reveal(){
-    var reveals = document.querySelectorAll('.reveal');
+/* intersection observer */
+let theReveals = document.querySelectorAll('.reveal');
 
-    for(var i = 0; i < reveals.length; i++){
+let IOObserver;
 
-    var windowheight = window.innerHeight;
-    var revealtop = reveals[i].getBoundingClientRect().top;
-    var revealpoint = 150;
+let IOOptions = {
+	threshold: .3
+};
 
-    if(revealtop < windowheight - revealpoint){
-        reveals[i].classList.add('active');
-    }
-    // else{
-    //     reveals[i].classList.remove('active');
-    // }
-  }
+IOObserver = new IntersectionObserver(IOFunction, IOOptions);
+
+for (reveal of theReveals) {
+	IOObserver.observe(reveal);
 }
 
-// const images = document.querySelector('.anim')
+function IOFunction(entries) {
+	for (entry of entries) {
+		if(entry.isIntersecting) {
+			entry.target.classList.add("active");
+		}
+	}
+}
 
-// observer = new IntersectionObserver((entries) => {
 
-//     entries.forEach(entry => {
-//       if(entry.IntersectionRatio > 0) {
-//         entry.target.style.animation = `anim1 2s forwards ease-out` ;
-//       }
-//       else {
-//         entry.target.style.animation = 'none';
-//       }
 
-// })
 
-// images.forEach(image => {
-// observer.observe(images)
-// })
-// })
+/* menu */
+let menuOpenButton = document.querySelector("header > button");
+let menuSluitenButton = document.querySelector("header nav button");
+let menu = document.querySelector("header nav");
+
+menuOpenButton.addEventListener("click", toggleMenu);
+menuSluitenButton.addEventListener("click", toggleMenu);
+
+function toggleMenu(event) {
+  menu.classList.toggle("menuOpen");
+  event.target.blur(); /* button verliest focus na de klik */
+}
+
+
+
+

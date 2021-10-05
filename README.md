@@ -79,7 +79,6 @@ Discord download pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
 ### Agenda voor meeting
@@ -87,18 +86,18 @@ samen met je groepje opstellen
 
 | Vidar          | Claudio            | Leroy        | Ruben            |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+|Moet je alles wat mogelijk is in custom properties? | Divjes en classes teveel?	| en ik dit    | en dan ik dat    |
+|Classes zo op de juiste manier met sections? (nog bespreken?)| nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Divs en classes weg werken
+- meer info opzoeken over psuedo-classes
+- costum-properties gebruiken
+- link gekregen voor de header images: https://codepen.io/shooft/pen/dyRveXL
 
 </details>
 
@@ -112,26 +111,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Costum-properties toegevoegd en verder bezig met herschrijven van de eerste pagina zonder divs, en classes.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Hoe animeer je het hamburger menu (voorbeeld zal ik laten zien)|Is het de bedoeling dat je de filters op de pagina ook werkend maakt? (Voorbeeld zal ik laten zien)|Hoe pas je de IntersectionObserver op de correcte manier toe in javascript| en dan ik dat    |
+| Moet je ook custom properties met bijvoorbeeld white-space of is dat meer als aanbevolen?| nog een punt | dit wil ik zeker |
+| Moet alles exact hetzelfde zijn als de website?| ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De huidige javascript code vervangen door de InterSectionObserver
+
 
 </details>
 
@@ -147,28 +143,25 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Hover states
+Hover states van de buttons toevoegen.
 
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Oplossing: Deze in de css toevoegen.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Active states. 
+Active states toevoegen aan de buttons
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Oplossing: deze toevoegen aan de css.
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Focus tab. 
+De focus tab functie werkte overal waar die moest werken.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
+#### Voice Over. 
+Ook de vocie over werkte uitstekend.
 
 </details>
 
@@ -182,16 +175,14 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-Het responsive maken van de website gaat erg goed, ook het gebruik van psuedo-classes in plaats van normale
-classes om de code semantischer te maken lukt goed.
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
 | Vidar          | Claudio            | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | Met javascript aanspreken van de mobile menu knop lukt nog niet helemaal.             | en ik dit    | en dan ik dat    |
+| Enig idee hoe ik dit het beste kan aanpakken? (Laat ik zien) | Met javascript aanspreken van de mobile menu knop lukt nog niet helemaal.             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
@@ -201,10 +192,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De mobile menu doormiddel van CSS maken in plaats van Javascript
+- PS. de docent heeft het probleem wat ik had met de mobile menu opgelost.
+
 
 </details>
 
@@ -218,12 +208,17 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond Front-end development over het algemeen redelijk goed gaan. Ik had op het eind wat moeite
+met de mobile menu en footer, dit is uiteindelijk opgelost. De footer heb ik een paar keer moeten herschrijven
+omdat ik het niet responsive kreeg, echter dit is uiteindelijk wel gelukt.
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
-
+<img src="images/mobilescreenshot2.png" width="375px" alt="mobilescreenshot">
+<img src="images/mobilescreenshot1.png" width="375px" alt="mobilescreenshot pagina 2">
+<img src="images/fullscreenshot1.png" width="375px" alt="screenshot full-width pagina 1">
+<img src="images/fullscreenshot2.png" width="375px" alt="screenshot full-width pagina 2">
 </details>
 
 
